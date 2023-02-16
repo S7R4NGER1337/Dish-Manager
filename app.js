@@ -70,37 +70,10 @@ function solve() {
     completeButton.addEventListener("click", completePosts);
 
     function completePosts() {
-      // const nameText = name.textContent;
-      // const ageAndGenderText = ageAndGender.textContent;
-      // const paragaphText = desc.textContent;
-
-      // const newLi = document.createElement("li");
-      // newLi.classList.add("each-line");
-
-      // const article = document.createElement("article");
-
-      // const names = document.createElement("h4");
-      // names.textContent = nameText;
-
-      // const otherData = document.createElement("p");
-      // otherData.textContent = ageAndGenderText;
-
-      // const paragraph = document.createElement("p");
-      // paragraph.textContent = paragaphText;
-
-      // finished.appendChild(newLi);
-      // newLi.appendChild(article);
-      // article.appendChild(names);
-      // article.appendChild(otherData);
-      // article.appendChild(paragraph);
-
       editButton.remove();
       completeButton.remove();
-
       count.textContent = Number(count.textContent) - 1;
-
       finished.appendChild(li);
-      // li.remove();
 
       clearBtn.addEventListener("click", clear);
       function clear() {
